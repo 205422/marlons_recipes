@@ -6,12 +6,11 @@
     box-sizing: border-box;
     display: block;
     font-weight: bold;
-    text-align: center;
     margin: 137px 60px 15px;
     border-width: 5px;
-    width: 612px;
+    width: 800px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 8px;
 }
 .card, .pages {
     width: 612px;
@@ -23,7 +22,7 @@
     border-radius: 5px;
     left: 50%;
 }
-.title, .card3_title, .card5_title, .text, #editor_text, .bike_para, h3, #bike_head {
+.title, .card_title, .card_title, .text, .editor_text, .para, h3, .head {
   background: white;
   margin-bottom: 8px;
   padding: 8px;
@@ -86,7 +85,7 @@ a {
     width: 166px;
     height: 200px;
 }
-.bike_para {
+.para {
     color: rgb(82, 82, 82);
     font-family: Helvetica,'Arial Narrow',Sans-serif;
     font-size: 17px;
@@ -95,14 +94,14 @@ a {
 .text_color {
     color: rgb(82, 82, 82);
 }
-#editor_text, .text_color {
+.editor_text, .text_color {
     font-size: 12px;
     font-weight: bold;
 }
-#bike_head {
+.head {
     font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.pages {
+.pages, #main {
     text-align: center;
 }
