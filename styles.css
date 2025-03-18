@@ -3,13 +3,11 @@
 }
 #main {
     font-size: 100px;
-    box-sizing: border-box;
-    display: block;
     font-weight: bold;
-    margin: 137px 60px 15px;
-    border-width: 5px;
+    margin: auto;
+    margin-top: 137px;
+    border-radius: 5px;
     width: 800px;
-    border-radius: 10px;
     padding: 8px;
 }
 .card, .pages {
@@ -23,9 +21,9 @@
     left: 50%;
 }
 .title, .card_title, .card_title, .text, .editor_text, .para, h3, .head {
-  background: white;
-  margin-bottom: 8px;
-  padding: 8px;
+    background: white;
+    margin-bottom: 8px;
+    padding: 8px;
 }
 .list, .card2_content {
     background-color: white;
